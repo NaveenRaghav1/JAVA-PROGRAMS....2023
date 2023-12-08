@@ -1,9 +1,11 @@
-package constructor;
-//package OOPSCONCEPT;
-
-public class test {
-    public static void main(String[] args) {
-        System.out.println("hello naveen");
+class Test {
+    float m1() {
+        System.out.println("vikas");
+        return 11.1f;
     }
 
+    public static void main(String[] args) {
+        Test t = new Test();
+        t.m1();
+    }
 }
