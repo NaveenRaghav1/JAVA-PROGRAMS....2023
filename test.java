@@ -1,11 +1,9 @@
-class Test {
-    float m1() {
-        System.out.println("vikas");
-        return 11.1f;
+public class test {
+     int x;
+    public static void main(String[] args){
+        System.out.println(fun());
     }
-
-    public static void main(String[] args) {
-        Test t = new Test();
-        t.m1();
+    static int fun(){
+        return x;
     }
 }
