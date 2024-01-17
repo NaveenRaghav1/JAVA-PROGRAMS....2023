@@ -1,15 +1,7 @@
-import java.util.Scanner;
-public class first {
-    
-    public static void main(String[] args){
-        System.out.println("hello naveen");
-        Scanner sum=new Scanner(System.in);
-        System.out.println("enter first number-->");
-        int num1=sum.nextInt();
-        System.out.println("enter second number-->");
-        int num2=sum.nextInt();
-        int sume=num1+num2;
-        System.out.println("the sum of the numbers is-->"+ sume);
-
+//package BASICS;
+class first {
+    public static void main(String[] args) {
+        System.out.println("hello");
+        System.out.println("hi Naveen Raghav--09/01/2024");
     }
 }
