@@ -1,32 +1,14 @@
-package constructor;
-//in this program we saw how a constructor work in java
-
-//import keyword.A;
-
 class B {
+    B() {
+        this(10);
+    }
+
+    B(int a) {
+        System.out.println(a);
+    }
 
     public static void main(String[] args) {
-        A res = new A();
-        res.show();
+        B r = new B();
     }
+
 }
-
-class A {
-    int a;
-    String name;
-
-    /*
-     * A() {
-     * a = 10;
-     * name = "naveen";
-     * }
-     * /*
-     */
-    void show() {
-        System.out.println(a + " " + name);
-    }
-}
-
-/**
- * constructor
- */
